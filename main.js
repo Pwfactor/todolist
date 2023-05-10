@@ -6,10 +6,10 @@
     const TOAST_SUCCESS = document.querySelector(`.toast.success`);
     const TOAST_ERROR = document.querySelector(`.toast.error`);
     
-//State
+//Variables
     const arrayTaskList = localStorage.getItem("Tasks") ? JSON.parse(localStorage.getItem("Tasks")): []
 
-    
+
 //Onload   
 window.onload = function(){
 
